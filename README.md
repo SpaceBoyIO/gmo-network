@@ -1,0 +1,1 @@
+This is a game website, with by the time it finishes, prolly over 100 games. It will also have another section called gmo emulator and maybe a soundboard. uhm there will be a password to access the site dw ill code that in, but i think ill make it 9876
