@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GMO Network</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <script>
+    function checkPassword(event) {
+    if (event.key === 'Enter') {
+      const input = event.target.value;
+      const correctPassword = "9876"; // change to your password
+      if (input === correctPassword) {
+        window.location.href = "https://youtube.com";
+      } else {
+        alert("Incorrect password");
+      }
+    }
+  }
+</script>
     <style>
         .gmo-network-h1 {
     position: absolute;
@@ -30,5 +43,12 @@
 <body style="background-color:SkyBlue;">
     <h1 class="gmo-network-h1">GMO NETWORK</h1>
     <h1 style="font-size:12px; font-family: 'Roboto', sans-serif;">@spaceboy</h1>
+    <h2><h2>Enter Password</h2></h2>
+    <input 
+    type="password" 
+    placeholder="Type password and press Enter" 
+    onkeydown="checkPassword(event)"
+    style="font-size: 20px; padding: 10px; width: 300px;"
+  />
 </body>
 </html>
